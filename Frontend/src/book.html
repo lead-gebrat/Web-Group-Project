@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-salmon flex gap-12 flex-col">
+  <header class="flex gap-2 py-4 justify-between bg-white">
+    <!-- <svg class="lg:hidden" width="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg> -->
+    <h1 class="text-sm md:text-lg  text-peach font-bold">Zemnanit Beauty Salons</h1>
+    <nav class="flex md:mr-4   gap-2 lg:gap-4 self-end">
+      <a class="text-sm md:text-lg font-semibold hover:text-peach" href="salons.html">Salons</a>
+      <a class="text-sm md:text-lg font-semibold hover:text-peach"  href="appointment.html">Appointments</a>
+      <a class="text-sm md:text-lg font-semibold hover:text-peach"  href="book.html">Logout</a>
+
+    </nav>
+  </header>
+
+  <main class="flex flex-col gap-3 self-center ">
+    <div class="flex flex-col">
+      <label for="name">Full Name</label>
+    <div><input class="p-2 w-full rounded"  type="text" id="name" placeholder="Enter Your Full Name"></div>
+    </div>
+    
+
+    <div class="flex flex-col">
+      <label for="email">Full Name</label>
+    <div><input class="p-2 w-full rounded" type="text" id="email" placeholder="Enter Your email"></div>
+    </div>
+    
+    <div class=" justify-center">
+      <label for="style">Choose a hair style:</label>
+    <div>
+      <button class="p-2 rounded bg-gray-400">Choose</button>
+    </div>
+    </div> 
+
+    <div class="flex bg- flex-col">
+      <label for="time">Choose a hair style:</label>
+    <div id="time">
+      <button class="p-2 rounded bg-gray-400">Select Date</button>
+      <button class="p-2 rounded bg-gray-400">Select Time</button>
+    </div>
+    </div>
+
+    <div class="flex flex-col gap-3">
+      <label>Additional Comment:</label>
+      <textarea class="p-10 outline-none" placeholder= "Provide any specific instruction or additional comment..."> </textarea> 
+      
+    </div>
+    <div class="self-center">
+      <button class="px-4 py-2 bg-peach rounded">Book</button>
+    </div>
+
+  </main>
+
+  <footer class="felx flex-col bg-white align-bottom">
+    <p>Nourish Your Hair , Nurture Your Charm
+    </p>
+    <p class="self-end">~Zemnanit</p>
+  </footer>
+  
+
+</body>
+</html>
