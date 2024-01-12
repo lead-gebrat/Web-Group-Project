@@ -24,10 +24,10 @@ Maedot Asrat UGR/2867/14
 ### Reasons for choosing the mongoDB database  
 • MongoDB provides excellent query functionality, particularly with its query language and flexible document model. This allows us to efficiently retrieve and manipulate data using query strings. 
  
-• MongoDB supports creating explicit schemas and validating data. 
+##### • MongoDB supports creating explicit schemas and validating data. 
  
-• Data in MongoDB is stored in documents with key-value pairs instead of rows and columns which makes it easier and faster to manipulate input values. 
-• Furthermore, MongoDB offers the advantage of robustness through the use of the Mongoose module.  
+##### • Data in MongoDB is stored in documents with key-value pairs instead of rows and columns which makes it easier and faster to manipulate input values. 
+##### • Furthermore, MongoDB offers the advantage of robustness through the use of the Mongoose module.  
 
  
 #### 1. Booking an appointment (Users): 
