@@ -22,7 +22,7 @@ Maedot Asrat UGR/2867/14
 
    
 ### Reasons for choosing the mongoDB database  
-• MongoDB provides excellent query functionality, particularly with its query language and flexible document model. This allows us to efficiently retrieve and manipulate data using query strings. 
+##### • MongoDB provides excellent query functionality, particularly with its query language and flexible document model. This allows us to efficiently retrieve and manipulate data using query strings. 
  
 ##### • MongoDB supports creating explicit schemas and validating data. 
  
