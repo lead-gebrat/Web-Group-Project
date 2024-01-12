@@ -31,16 +31,16 @@ Maedot Asrat UGR/2867/14
 
  
 #### 1. Booking an appointment (Users): 
-• GET: Users can see their bookings in the ‘appointments page’. 
-• POST: Users can create a new booking by providing necessary details such as time, date, email, and preferred style on the ‘book page’. 
-• PUT: Users can update their existing bookings, including modifying the appointment time, date, email, and preferred style on the ‘appointments page’. 
-• DELETE: Users can cancel their bookings, removing them from the ‘appointments page’. 
+##### • GET: Users can see their bookings in the ‘appointments page’. 
+##### • POST: Users can create a new booking by providing necessary details such as time, date, email, and preferred style on the ‘book page’. 
+##### • PUT: Users can update their existing bookings, including modifying the appointment time, date, email, and preferred style on the ‘appointments page’. 
+##### • DELETE: Users can cancel their bookings, removing them from the ‘appointments page’. 
  
 #### 2. Salon Management (Administrators) all on the manage salon page. 
-• GET:  admins can view a list of all salons with information about each salon. 
-• POST: admins can add new salons by providing the required details such as salon name, address and salon profile picture. 
-• PUT:  admins have the ability to edit salon information, allowing them to update details such as the salon name and location. 
-• DELETE:  admins can remove salons from the system, deleting their information from the database. 
+##### • GET:  admins can view a list of all salons with information about each salon. 
+##### • POST: admins can add new salons by providing the required details such as salon name, address and salon profile picture. 
+##### • PUT:  admins have the ability to edit salon information, allowing them to update details such as the salon name and location. 
+##### • DELETE:  admins can remove salons from the system, deleting their information from the database. 
 #### 3. Management of users(Admins) 
-• GET: admins can access the list of users registered. 
-• PATCH: admins can update users info.
+##### • GET: admins can access the list of users registered. 
+##### • PATCH: admins can update users info.
